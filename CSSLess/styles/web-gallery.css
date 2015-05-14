@@ -36,6 +36,9 @@ body #first .radio img {
 body #first input[type=radio] {
   display: none;
 }
+body #first input[type=radio] + .radio {
+  display: none;
+}
 body #first input[type=radio]:checked + .radio {
   position: absolute;
   display: block;
